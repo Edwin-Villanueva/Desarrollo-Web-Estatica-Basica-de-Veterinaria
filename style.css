@@ -1,0 +1,98 @@
+body{
+    margin: 3px;
+    padding:3px;
+    background:linear-gradient(rgb(199, 118, 118),white)
+    ,url(https://thumbs.dreamstime.com/b/lindo-veterinario-patr%C3%B3n-sin-costuras-fondo-dibujado-mano-de-caras-mascotas-y-equipo-207731041.jpg) no-repeat center ;background-size: cover;
+    background-attachment: fixed;
+}
+#titulo{
+    padding-left: 5px;
+}
+nav {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav button{
+    font-size: 20px;
+    cursor: pointer; 
+}
+nav button:hover{
+    background-color: red;
+    color:white
+}
+#textoA {
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-content: center;
+}
+#textoA p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+#spane{
+    color: red;
+    font-size:30px;
+}
+
+#servicios{
+    padding-top: 60x;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.servicio img{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    
+    object-fit: cover;
+}
+.servicio p{
+    font-size: 18px;
+}
+footer img{
+    padding-right: 20px;
+    width: 20%;
+}
+#foot{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#foot div{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+}
+#textServicios{
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+address{
+    font-size: 20px;
+}
+.url img{
+    object-fit: cover;
+    width: 40px;
+}

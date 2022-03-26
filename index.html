@@ -5,8 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="titulo">
+        <h2>Veterinaria Cuki</h2>
+    </div>
+    <nav>
+        <button>Nosotros</button>
+        <button>Servicios</button>
+        <button>Contacto</button>
+    </nav>
+
+    <div id="textoA">
+        <p>En la <b>Veterinaria Cuki</b> contamos con un equipo de trabajo altamente idóneo para atender a
+            nuestros mejores amigos. Conjugamos las <b>mejores instalaciones</b> para la atención y el cuidado de sus
+            mascotas, con los <b>profesionales más capacitados</b> en la asistencia veterinaria. <b>La salud de nuestras
+                mascotas es tan importante como la de cualquier integrante de la familia,por eso contamos con:<br><br> </b>
+                <span id="spane">Atención las 24 hs, los 365 días del año</span>
+        </p>
+
+    </div>
+    <div id="container">
+        <h2 id="textServicios">Servicios</h2>
+    </div>
+    <div id="servicios">
+        <div class="servicio">
+            <img src="https://centraldemascotas.com/www/rsc/img/consultorio-veterinario.jpg" alt="no-disponible">
+            <p>
+                3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles
+            </p>
+        </div >
+        <div class="servicio">
+            <img src="https://www.hola.com/imagenes/mascotas/20181024131834/vacuna-desparasitacion-perro/0-613-416/revisiones-perro-veterinario-m.jpg?filter=w360" alt="no-disponible">
+            <p>
+                Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a
+                la mascota hacia nuestra clínica
+            </p>
+        </div>
+            
+        <div class="servicio">
+            <img src="https://www.diarioveterinario.com/images/showid2/2859329?w=900 
+            " alt="no-disponible">
+            <p>
+                Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología, 
+                Servicio de odontología, limpieza de dientes por ultrasonido. 
+            </p>
+            
+        </div>
+
+    </div>
+
+    <footer id="foot">
+        
+        <div>
+            <a class="url"  href=""> 
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCOVY_qR2g9WJrL-O_04uShxOvD3-rRNAlQ&usqp=CAU" alt="">
+            </a>
+            <a class="url" href="">
+                <img src="data:image/png;base64,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" alt="">
+            </a>
+            <a class="url" href="">
+                <img src="data:image/png;base64,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" alt="">
+            </a>
+        </div>
+        <div>
+            <address>
+                Veterinaria Cuki - Luis Agote 250 Bº Mirador 
+            </address>
+        </div>
+        
+    </footer>
     
 </body>
 </html>
